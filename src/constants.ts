@@ -1,13 +1,6 @@
-export type Movie = {
-  id: string;
-  title: string;
-  poster: string;
-  overview: string;
-  release_date: number;
-  genres: string[];
-};
+import { Movie } from './types'
 
-export const movies: Movie[] = [
+export const constants: Movie[] = [
   {
     id: "287947",
     title: "Shazam!",
